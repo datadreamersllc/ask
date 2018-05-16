@@ -6,7 +6,7 @@ const APP_ID = 'amzn1.ask.skill.3adc23da-c28d-4034-98ea-6674b2770320';
 const languageStrings = {
     'en-US': {
         translation: {
-            SKILL_NAME: 'iwantameal.com',
+            SKILL_NAME: 'www.iwantameal.com',
             HELP_MESSAGE: 'Welcome to our skill, ask Where Is My Food to find the status of your delivery',
             LINK_MESSAGE: 'Welcome to our skill, you have not linked your account yet, open the Alexa app and click on, Link account, to query the status of your order.',
             SETSTOP_MESSAGE: 'OK, open the Alexa app and click on, Link account.',
@@ -56,7 +56,7 @@ const wheresMyFood = function() {
                //var user_email = parsedData.subject;
                console.log('email:', body.subject); 
                const options2 = {  
-                   url: 'http://23.22.247.129/?ddurl=www.iwantameal.com/alexa_order_status.xsl',
+                   url: 'http://aws.datadreamers.com/?ddurl=www.iwantameal.com/alexa_order_status.xsl',
                    method: 'POST',
                    headers: {
                        'Accept': 'application/json',
