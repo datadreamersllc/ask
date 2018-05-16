@@ -1,0 +1,27 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "where is my food",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "WheresMyFood",
+          "samples": [
+            "Find my food"
+          ]
+        }
+      ]
+    }
+  }
+}

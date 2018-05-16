@@ -1,0 +1,48 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Ask alexa for a real time status of your iwantameal.com delivery.",
+          "examplePhrases": [
+            "Alexa, Where is my food?"
+          ],
+          "keywords": [
+            "iwantameal.com"
+          ],
+          "name": "iwantameal.com",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fbf2/7a35a07027c7408fbadded8def2356f5/APP_ICON?versionId=UF21uIaCz9NCExqsogrwox0wBGXuFR5w&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1525017221&Signature=NiobtaZv6491qD6ZWXri3V1Pr2E%3D",
+          "description": "Ask alexa for a real time status of your iwantameal.com delivery.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e6db/57845720746046a1a7d25298c647769e/APP_ICON_LARGE?versionId=G_P7YGHs2XTN6DrtwLZyTTAlrHUqNjlS&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1525017221&Signature=AVQRA%2BwWEV6Lklq8XJv44Geff38%3D"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "We have created a test account for you to preview the function real users will have.  When account linking, use username=alexatest@iwantameal.com password=a",
+      "category": "DELIVERY_AND_TAKEOUT",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://www.datadreamers.com/tos",
+          "privacyPolicyUrl": "https://www.datadreamers.com/privacy.xsl"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
